@@ -48,7 +48,9 @@ a {
     width: fit-content;
     font-size: 4rem;
     position: relative;
-    color: white;
+    color: transparent;
+    animation: text_reveal 1s ease forwards;
+    animation-delay: 1.5s;
 }
 
 #hero h1 span {
@@ -59,16 +61,10 @@ a {
     width: 100%;
     background-color: crimson;
     animation: text_reveal_box 1s ease;
-    animation-delay: 1s;
+    animation-delay: 1;
 }
 
-#hero h1 {
-    display: block;
-    width: fit-content;
-    font-size: 4rem;
-    position: relative;
-    color: white;
-}
+
 
 #hero .cta {
     display: inline-block;
@@ -102,6 +98,10 @@ a {
         left: 100%;
     }
 }
-
-
 /* end of keyframes */
+
+@keyframes text_reveal{
+    100%{
+        color: white;
+    }
+}
