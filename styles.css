@@ -42,7 +42,7 @@ a{
     z-index: -1;
 }
 
-<<<<<<< HEAD
+
 #hero h1{
     display: block;
     width: fit-content;
@@ -58,10 +58,6 @@ a{
     height: 100%;
     width: 100%;
     background-color: crimson;  
-=======
-#hero h1 span{
-    position: absolute;    
->>>>>>> 502305735203c9630acaceaeac44575f3217235f
 }
 
 #hero h1{
